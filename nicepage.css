@@ -44886,42 +44886,102 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
  .u-footer {
-  background-image: none;
+  background-image: url("images/Sem-Ttulo-3.gif");
+  background-position: 50% 50%;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 256px;
 }
 
 .u-footer .u-text-1 {
+  font-size: 1.875rem;
+  font-weight: 900;
+  width: 578px;
+  margin: 32px auto 0;
+}
+
+.u-footer .u-text-2 {
+  font-size: 1.875rem;
   width: 417px;
+  margin: 5px auto 0;
+}
+
+.u-footer .u-group-elements-1 {
+  width: 96px;
+  height: 41px;
+  margin: 5px auto 0;
+}
+
+.u-footer .u-icon-1 {
+  width: 41px;
+  height: 41px;
+  margin: 0 auto 0 55px;
+  padding: 0;
+}
+
+.u-footer .u-icon-2 {
+  width: 41px;
+  height: 41px;
+  margin: -41px auto 0 0;
+  padding: 0;
+}
+
+.u-footer .u-text-3 {
   font-size: 0.875rem;
-  margin: 49px auto;
+  width: 417px;
+  margin: 32px auto 23px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 99px;
+    min-height: 211px;
   }
 }
 @media (max-width: 991px) {
   .u-footer .u-sheet-1 {
-    min-height: 76px;
+    min-height: 162px;
   }
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 57px;
+    min-height: 122px;
+  }
+
+  .u-footer .u-text-1 {
+    width: 540px;
   }
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 65px;
+    min-height: 211px;
   }
 
   .u-footer .u-text-1 {
-    font-size: 0.625rem;
+    font-size: 1.5rem;
     width: auto;
-    margin: 25px 0;
+    margin-top: 23px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-footer .u-text-2 {
+    width: auto;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-footer .u-group-elements-1 {
+    width: 96px;
+    height: 41px;
+    margin-top: 5px;
+  }
+
+  .u-footer .u-text-3 {
+    font-size: 0.625rem;
+    width: 340px;
+    margin-top: 12px;
+    margin-bottom: 23px;
   }
 }
 
