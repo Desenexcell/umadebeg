@@ -1,38 +1,50 @@
  .u-section-1 {
-  min-height: 384px;
+  min-height: 144px;
 }
 
 .u-section-1 .u-shape-1 {
   height: 114px;
-  margin-top: 60px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 
 .u-section-1 .u-image-1 {
   width: 502px;
   height: 169px;
-  margin: -141px auto 33px;
+  margin: -141px auto 3px;
 }
 
 @media (max-width: 1199px) {
    .u-section-1 {
     background-position: 50% 50%;
   }
+
+  .u-section-1 .u-image-1 {
+    margin-left: calc(((100% - 940px) / 2)  + 319px);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    margin-left: calc(((100% - 720px) / 2)  + 218px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-left: calc(((100% - 540px) / 2)  + 38px);
+  }
 }
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 202px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    margin-top: 27px;
+    min-height: 132px;
   }
 
   .u-section-1 .u-image-1 {
     height: 149px;
     margin-top: -131px;
-    margin-bottom: 9px;
+    margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -45,7 +57,7 @@
   font-weight: 900;
   font-size: 1.875rem;
   width: 800px;
-  margin: 0 auto;
+  margin: -3px auto 0;
 }
 
 .u-section-2 .u-btn-1 {
@@ -53,7 +65,7 @@
   font-weight: 700;
   font-size: 0.9375rem;
   background-image: none;
-  margin: 20px auto 0;
+  margin: 23px auto 0;
   padding: 22px 328px 23px;
 }
 
@@ -130,41 +142,41 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 462px;
+    min-height: 464px;
   }
 
   .u-section-2 .u-text-1 {
     font-size: 1.125rem;
     width: auto;
-    margin-top: 0;
+    margin-top: 9px;
     margin-left: 0;
     margin-right: 0;
   }
 
   .u-section-2 .u-btn-1 {
     border-style: solid;
-    margin-top: 5px;
+    margin-top: 23px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 78px;
   }
 
   .u-section-2 .u-btn-2 {
-    margin-top: 15px;
+    margin-top: 13px;
     padding-right: 35px;
     padding-left: 34px;
   }
 
   .u-section-2 .u-btn-3 {
     border-style: solid;
-    margin-top: 25px;
-    margin-right: auto;
+    margin-top: 27px;
     margin-left: auto;
+    margin-right: auto;
     padding: 20px 110px;
   }
 
   .u-section-2 .u-btn-4 {
-    margin-bottom: 49px;
+    margin-bottom: 27px;
     padding-right: 111px;
     padding-left: 110px;
   }
